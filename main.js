@@ -86,3 +86,14 @@ function userSelectScissors() {
     playerSelection = 'scissors'
     playRound(playerSelection, computerSelection)
 }
+
+document.querySelector('.reset').addEventListener('click', resetGame)
+
+function resetGame() {
+    playerSelection = ''
+    playerScore = 0
+    computerScore = 0
+    playerPoint()
+    computerPoint()
+    results('Results:')
+}

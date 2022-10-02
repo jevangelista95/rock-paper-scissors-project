@@ -83,3 +83,18 @@ header h1 {
     align-items: center;
     margin-top: 20px;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+}
