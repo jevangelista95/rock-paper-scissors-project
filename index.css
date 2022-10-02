@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: steelblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 50px
+}
+
+.players h2 {
+    font-size: 50px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.options button {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    height: 425px;
+    width: 400px;
+}
+
+.options button:hover {
+    background-color: red;
+    flex-grow: .05;
+}
+
+.rock {
+    background: url(images/pngfind.com-scissors-png-563277.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.paper {
+    background: url(images/PinClipart.com_rock-paper-scissors-clipart_511523.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scissors {
+    background: url(images/PinClipart.com_rock-paper-scissors-clip_5360227.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
